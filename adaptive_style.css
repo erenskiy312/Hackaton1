@@ -1,0 +1,202 @@
+@media all and (max-width: 1200px) {
+  #vector-2 {
+    margin-top: -26%;
+    margin-left: -18%;
+  }
+
+  #vector-5 {
+    margin-left: 94%;
+    margin-top: -81%;
+  }
+}
+
+@media all and (max-width: 992px) {
+  .navbar__list {
+    width: 44%;
+    margin-left: 51%;
+    margin-top: -6%;
+  }
+
+  header {
+    text-align: center;
+  }
+
+  .header-desc__left {
+    margin-left: 40%;
+  }
+
+  .header-block__left-image {
+    margin-left: 18%;
+  }
+
+  .header-block__left-image {
+    width: 19%;
+    margin-left: 18%;
+    width: 22%;
+  }
+
+  .header-desc__left {
+    width: 28%;
+  }
+
+  .header-btn__left {
+    margin-left: 7%;
+  }
+
+  .avatar-icon {
+    margin-left: 7%;
+    margin-top: -27%;
+    width: 40%;
+  }
+
+  #vector-2 {
+    margin-top: -41%;
+    margin-left: -28%;
+  }
+
+  #vector-4 {
+    margin-left: 68%;
+    margin-top: -35%;
+  }
+
+  #vector-5 {
+    margin-top: -127%;
+  }
+}
+
+@media all and (max-width: 768px) {
+  #vector-2 {
+    margin-top: -52%;
+    margin-left: -39%;
+    width: 66%;
+  }
+
+  #vector-4 {
+    margin-left: 56%;
+    margin-top: -54%;
+    width: 58%;
+  }
+
+  #vector-3 {
+    margin-left: -17%;
+  }
+
+  #vector-5 {
+    width: 54%;
+    margin-left: 90%;
+    margin-top: -108%;
+  }
+
+  .avatar-icon {
+    margin-left: 7%;
+    margin-top: -36%;
+    width: 42%;
+  }
+
+  .header-block__left-image {
+    width: 32%;
+  }
+
+  .navbar__title {
+    font-size: 23px;
+  }
+
+  .navbar__list {
+    display: none;
+  }
+
+  .burger-menu-icon {
+    display: inline-block;
+    margin-left: 56%;
+    width: 5%;
+  }
+
+@media all and (max-width: 576px) {
+    .burger-menu-icon {
+        display: inline-block;
+        margin-left: 90%;
+        width: 6%;
+        margin-top: -23%;
+    }
+
+    .header-btn__left {
+        margin-left: 7%;
+        width: 36%;
+    }
+
+    .header-btn__left2 {
+        width: 36%;
+    }
+
+    .avatar-icon {
+        margin-left: 3%;
+        margin-top: -49%;
+        width: 42%;
+    }
+
+    #vector-3 {
+        margin-left: -18%;
+        width: 53%;
+    }
+
+    #vector-4 {
+        margin-left: 65%;
+  }
+
+}
+
+@media all and (max-width: 320px) {
+    .logo {
+        width: 7%;
+    }
+
+    .navbar__title {
+        font-size: 14px;
+    }
+
+    .burger-menu-icon {
+        display: inline-block;
+        margin-left: 91%;
+        width: 9%;
+        margin-top: -6%;
+    }
+
+    .header-block__left-image {
+        width: 40%;
+    }    
+
+    .header-title__left {
+        margin-top: -8%;
+        margin-left: 7%;
+        font-size: 37px;
+    }
+
+    .header-desc__left {
+        width: 80%;
+        margin-left: 16%;
+    }
+
+    .header-btn__left {
+        margin-left: 7%;
+        width: 46%;
+    }
+
+    .header-btn__left2 {
+        width: 46%;
+    }
+
+    .header-image__left {
+        display: inline-block;
+        padding: 5px;
+        width: 8%;
+        margin-top: -11%;
+        margin-left: 1%;
+    }
+
+    .avatar-icon {
+        margin-left: 3%;
+        margin-top: -1%;
+        width: 42%;
+    }
+    
+}
