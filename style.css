@@ -3,7 +3,7 @@ body {
   color: #ffffff;
   font-family: "Quicksand", sans-serif;
 }
-
+/* navbar start */
 .navbar__title {
   display: inline-block;
   margin-left: 10px;
@@ -40,7 +40,9 @@ li {
 .burger-menu-icon {
   display: none;
 }
+/* navbar end */
 
+/* header start */
 .header-block__left-image {
   width: 13%;
   margin: 5% 10%;
@@ -100,6 +102,7 @@ li {
   margin-left: 49%;
   margin-top: -48%;
 }
+/* header end */
 
 /* main start */
 main {

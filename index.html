@@ -13,143 +13,151 @@
       href="https://fonts.googleapis.com/css2?family=Aldrich&family=Fuzzy+Bubbles:wght@400;700&family=Inter:wght@300;400;500;600;700;800&family=Josefin+Sans:wght@300;400;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </head>
   <body>
     <!-- burger menu start -->
-    <div class="burger-menu">
-      <div class="burger-menu__content">
-        <img
-          src="./images/cancel btn.png"
-          alt="cancel btn"
-          class="burger-menu__close"
-        />
-        <ul class="burger-menu__list">
-          <li class="burger-menu__item"><a href="#">Home</a></li>
-          <li class="burger-menu__item"><a href="#">About</a></li>
-          <li class="burger-menu__item"><a href="#">Resume</a></li>
-          <li class="burger-menu__item"><a href="#">Skills</a></li>
-          <li class="burger-menu__item"><a href="#">Projects</a></li>
-          <li class="burger-menu__item"><a href="#">Contact</a></li>
-        </ul>
-      </div>
-    </div>
-    <!-- burger menu end -->
-
-    <!-- navbar start -->
-    <nav class="navbar">
-      <img src="./images/logo.png" alt="logo" class="logo" />
-      <h4 class="navbar__title">Keneshbekov Erbol</h4>
-      <ul class="navbar__list">
-        <li class="navbar-list__item"><a href="#">Home</a></li>
-        <li class="navbar-list__item"><a href="#">About</a></li>
-        <li class="navbar-list__item"><a href="#">Resume</a></li>
-        <li class="navbar-list__item"><a href="#">Skills</a></li>
-        <li class="navbar-list__item"><a href="#">Projects</a></li>
-        <li class="navbar-list__item"><a href="#">Contact</a></li>
-      </ul>
-      <img
-        src="./images/navbar__burger-menu.png"
-        alt="burger-menu"
-        class="burger-menu-icon"
-      />
-    </nav>
-    <!-- navbar end -->
-
-    <!-- header start -->
-    <header>
-      <div class="header-block__left">
-        <img
-          class="header-block__left-image"
-          src="./images/header left HELLO!.png"
-          alt="image"
-        />
-        <h2 class="header-title__left">
-          I'm <span class="header-title__span">Erbol!</span>
-        </h2>
-        <p class="header-desc__left">
-          Front-End Developer/Junior. Based in Kyrgyzstan.
-        </p>
-        <a href="#"
-          ><img
-            src="./images/btn1.png"
-            alt="header-btn1"
-            class="header-btn__left"
-        /></a>
-        <a href="#"
-          ><img
-            src="./images/btn2.png"
-            alt="header-btn2"
-            class="header-btn__left2"
-        /></a>
-        <!-- <button class="header-btn__left">Download CV</button>
-        <button class="header-btn__left2">Get In Touch!</button> -->
-        <div class="icons">
-          <a href="https://www.facebook.com/"
-            ><img
-              src="./images/header-facebook.png"
-              alt=""
-              class="header-image__left"
-            />
-          </a>
-          <a href="https://www.instagram.com/">
-            <img
-              src="./images/header-instagram.png"
-              alt=""
-              class="header-image__left"
-            />
-          </a>
-          <a href="https://web.telegram.org/">
-            <img
-              src="./images/header-telegram.png"
-              alt=""
-              class="header-image__left"
-            />
-          </a>
-          <a href="https://www.twitter.com/">
-            <img
-              src="./images/header-twitter.png"
-              alt=""
-              class="header-image__left"
-            />
-          </a>
-          <a href="https://www.github.com/">
-            <img
-              src="./images/header-github.png"
-              alt=""
-              class="header-image__left"
-            />
-          </a>
+    <div data-aos="fade-right">
+      <div class="burger-menu">
+        <div class="burger-menu__content">
+          <img
+            src="./images/cancel btn.png"
+            alt="cancel btn"
+            class="burger-menu__close"
+          />
+          <ul class="burger-menu__list">
+            <li class="burger-menu__item"><a href="#">Home</a></li>
+            <li class="burger-menu__item"><a href="#">About</a></li>
+            <li class="burger-menu__item"><a href="#">Resume</a></li>
+            <li class="burger-menu__item"><a href="#">Skills</a></li>
+            <li class="burger-menu__item"><a href="#">Projects</a></li>
+            <li class="burger-menu__item"><a href="#">Contact</a></li>
+          </ul>
         </div>
       </div>
-      <!-- <img id="vector-1" src="./images/vector 1.png" alt="vector 1" /> -->
-      <img src="./images/avatar-icon.png" alt="avatar" class="avatar-icon" />
-    </header>
-    <!-- header end -->
+      <!-- burger menu end -->
 
-    <!-- main start -->
-    <main>
-      <h2 class="main__title">
-        This is IT. ;)
-        <hr class="hr-1" />
-      </h2>
-      <p class="main__desc">
-        K. Erbol in Kyrgyzstan is studying at the Front End of an IT developer,
-        he wants to become a developer in demand and work in big companies,
-        maybe even in Google :). I have been into programming since the age of
-        14. She dreams of studying and working in IT companies. In 4 weeks they
-        went through such topics as "BEM Methodology" "Pseudo-classes and
-        pseudo-elements" "Animation" and much more... And all this was HTML and
-        CSS, from next week he will get acquainted with JavaScript and later
-        with the React library. At the moment he is learning and wants to
-        achieve more in his life.
-      </p>
-      <hr class="hr-2" />
-      <img src="./images/Vector 2.png" alt="vector 2" id="vector-2" />
-      <img src="./images/Vector 3.png" alt="vector 3" id="vector-3" />
-      <img src="./images/Vector 4.png" alt="vector 4" id="vector-4" />
-      <img src="./images/Vector 5.png" alt="vector 5" id="vector-5" />
-    </main>
+      <!-- navbar start -->
+      <nav class="navbar">
+        <img src="./images/logo.png" alt="logo" class="logo" />
+        <h4 class="navbar__title">Keneshbekov Erbol</h4>
+        <ul class="navbar__list">
+          <li class="navbar-list__item"><a href="#">Home</a></li>
+          <li class="navbar-list__item"><a href="#">About</a></li>
+          <li class="navbar-list__item"><a href="#">Resume</a></li>
+          <li class="navbar-list__item"><a href="#">Skills</a></li>
+          <li class="navbar-list__item"><a href="#">Projects</a></li>
+          <li class="navbar-list__item"><a href="#">Contact</a></li>
+        </ul>
+        <img
+          src="./images/navbar__burger-menu.png"
+          alt="burger-menu"
+          class="burger-menu-icon"
+        />
+      </nav>
+      <!-- navbar end -->
+
+      <!-- header start -->
+      <header>
+        <div class="header-block__left">
+          <img
+            class="header-block__left-image"
+            src="./images/header left HELLO!.png"
+            alt="image"
+          />
+          <h2 class="header-title__left">
+            I'm <span class="header-title__span">Erbol!</span>
+          </h2>
+          <p class="header-desc__left">
+            Front-End Developer/Junior. Based in Kyrgyzstan.
+          </p>
+          <a href="#"
+            ><img
+              src="./images/btn1.png"
+              alt="header-btn1"
+              class="header-btn__left"
+          /></a>
+          <a href="#"
+            ><img
+              src="./images/btn2.png"
+              alt="header-btn2"
+              class="header-btn__left2"
+          /></a>
+          <!-- <button class="header-btn__left">Download CV</button>
+        <button class="header-btn__left2">Get In Touch!</button> -->
+          <div class="icons">
+            <a href="https://www.facebook.com/"
+              ><img
+                src="./images/header-facebook.png"
+                alt=""
+                class="header-image__left"
+              />
+            </a>
+            <a href="https://www.instagram.com/">
+              <img
+                src="./images/header-instagram.png"
+                alt=""
+                class="header-image__left"
+              />
+            </a>
+            <a href="https://web.telegram.org/">
+              <img
+                src="./images/header-telegram.png"
+                alt=""
+                class="header-image__left"
+              />
+            </a>
+            <a href="https://www.twitter.com/">
+              <img
+                src="./images/header-twitter.png"
+                alt=""
+                class="header-image__left"
+              />
+            </a>
+            <a href="https://www.github.com/">
+              <img
+                src="./images/header-github.png"
+                alt=""
+                class="header-image__left"
+              />
+            </a>
+          </div>
+        </div>
+        <!-- <img id="vector-1" src="./images/vector 1.png" alt="vector 1" /> -->
+        <img src="./images/avatar-icon.png" alt="avatar" class="avatar-icon" />
+      </header>
+      <!-- header end -->
+
+      <!-- main start -->
+      <main>
+        <h2 class="main__title">
+          This is IT. ;)
+          <hr class="hr-1" />
+        </h2>
+        <p class="main__desc">
+          K. Erbol in Kyrgyzstan is studying at the Front End of an IT
+          developer, he wants to become a developer in demand and work in big
+          companies, maybe even in Google :). I have been into programming since
+          the age of 14. She dreams of studying and working in IT companies. In
+          4 weeks they went through such topics as "BEM Methodology"
+          "Pseudo-classes and pseudo-elements" "Animation" and much more... And
+          all this was HTML and CSS, from next week he will get acquainted with
+          JavaScript and later with the React library. At the moment he is
+          learning and wants to achieve more in his life.
+        </p>
+        <hr class="hr-2" />
+        <img src="./images/Vector 2.png" alt="vector 2" id="vector-2" />
+        <img src="./images/Vector 3.png" alt="vector 3" id="vector-3" />
+        <img src="./images/Vector 4.png" alt="vector 4" id="vector-4" />
+        <img src="./images/Vector 5.png" alt="vector 5" id="vector-5" />
+      </main>
+    </div>
     <!-- main end -->
+
+    <script>
+      AOS.init();
+    </script>
 
     <script>
       let openBtn = document.querySelector(".burger-menu-icon");
@@ -165,4 +173,7 @@
       });
     </script>
   </body>
+  <script>
+    AOS.init();
+  </script>
 </html>
